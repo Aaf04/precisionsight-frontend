@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://aafiiiiii-precisionsight-backend.hf.space';
 const severityMeta = {
     0: { label: 'No DR', color: '#10b981', bg: '#f0fdf4', border: '#bbf7d0', desc: 'No signs of diabetic retinopathy detected.', advice: 'Continue routine annual screening.' },
     1: { label: 'Mild', color: '#3b82f6', bg: '#eff6ff', border: '#bfdbfe', desc: 'Microaneurysms present. Monitor regularly.', advice: 'Follow-up in 12 months recommended.' },

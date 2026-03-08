@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://aafiiiiii-precisionsight-backend.hf.space';
 
 interface PredictionData {
   severity: number;
